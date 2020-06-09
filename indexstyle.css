@@ -1,0 +1,16 @@
+#lists{
+    color: red;
+    font-size: large;
+    font-family: 'Jacques Francois Shadow' ;
+}
+#lists:hover{
+    background-color:#262626;
+}
+#welcome{
+    font-family: 'Timmana';
+    color: #000099;
+    margin-top: 25pt;
+    text-align: center;
+    padding-bottom: 20pt;
+    text-shadow: -2px -2px 5px #b30000; 
+}  

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDoList</title>
+    <link rel="stylesheet" href="indexstyle.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <link href='https://fonts.googleapis.com/css?family=Jacques Francois Shadow' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Timmana' rel='stylesheet'>
+</head>
+<body style="background-color: wheat;">
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #1a1a1a;">
+        <div class="collapse navbar-collapse">
+          <div class="container navbar-nav">
+            <a class="nav-item nav-link"  href="#" id="lists" onclick="list();">Todo List</a>
+            <a class="nav-item nav-link"  href="home.html" id="lists">Log Out</a>
+          </div>
+        </div>
+      </nav>
+
+      <div class="container" id="welcome">
+        <h1>Welcome to ToDo Web App</h1>
+      </div>
+
+
+<div class="container">
+      <table class="table table-responsive table-striped">
+                <tr class="bg-light" id="myfont">
+            
+                </tr>
+                <tbody id="todo_list"></tbody>
+      </table>
+</div>
+
+     <script src="todolist.js"></script>   
+</body>
+</html>
